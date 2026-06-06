@@ -1,5 +1,4 @@
 """gradebook.stats — aggregate statistics over grade records."""
-
 def average_per_student(records: list[dict]) -> dict[str, float]:
     """Map each student name to their average score, rounded to 2 decimals."""
     student_scores = {}
