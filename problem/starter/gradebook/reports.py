@@ -1,4 +1,3 @@
-"""gradebook.reports — build a printable report from grade records."""
 from .stats import average_per_student
 from .stats import subjects_offered
 from .stats import top_scorer
